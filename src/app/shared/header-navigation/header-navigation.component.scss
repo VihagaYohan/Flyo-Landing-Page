@@ -1,0 +1,16 @@
+.main-header{
+    border:1px solid red;
+    .main-logo-container{
+        
+    }
+
+    .main-nav-menu{
+
+        .nav-menu-items{
+            list-style-type: none;
+            .nav-menu-items__item{
+                display: inline-block;
+            }
+        }
+    }
+}

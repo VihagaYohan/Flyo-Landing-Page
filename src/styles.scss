@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* variables */
+$primary-color-1:#1c2431; // intro & email sign up background
+$primary-color-2:#181f2a; // main background
+$primary-color-3:hsl(216, 53%, 9%); // footer background
+$primary-color-4:hsl(219, 30%, 18%); // testimonials background
+
+$accent-cyan-color:hsl(176, 68%, 64%); // inside call-to-action gradient
+$accent-blue-color: hsl(198, 60%, 50%); // inside call-to-action gradient
+$accent-light-red:hsl(0, 100%, 63%); // error
+
+$netural-white-color:hsl(0, 0%, 100%); 
+
+$heading-fonts-family:'Raleway',sans-serif;
+$body-fonts-family:"Open Sans",sans-serif;
+

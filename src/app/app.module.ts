@@ -6,11 +6,16 @@ import { AppComponent } from './app.component';
 
 // components
 import { HomePageComponent } from './components/home-page/home-page.component';
+// shared components
+import { HeaderNavigationComponent } from './shared/header-navigation/header-navigation.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomePageComponent
+    HomePageComponent,
+    HeaderNavigationComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
