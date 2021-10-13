@@ -1,16 +1,17 @@
-.main-header{
-    border:1px solid red;
-    .main-logo-container{
-        
-    }
+@import "../../../styles/styles.scss";
 
-    .main-nav-menu{
 
-        .nav-menu-items{
-            list-style-type: none;
-            .nav-menu-items__item{
-                display: inline-block;
-            }
+.main-nav{
+    background-color: $primary-color-1;
+    padding:0 3rem;
+
+    .navbar__item{
+        color:white;
+        font-size: 2rem;
+        display: inline-block;
+
+        &:not(:last-child){
+            margin-right: 5rem;
         }
     }
 }

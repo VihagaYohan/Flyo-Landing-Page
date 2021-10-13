@@ -1,0 +1,12 @@
+@import "../../../styles/styles.scss";
+
+.container-fluid {
+  background: $primary-color-2;
+
+  .hero-container {
+
+    p,h4 {
+      color: white;
+    }
+  }
+}
